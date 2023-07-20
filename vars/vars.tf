@@ -36,7 +36,7 @@ variable "courses" {
 # Map
 variable "course_details" {
   default = {
-    Devops = {
+    DevOps = {
       name = "DevOps"
       timing = "10am"
       duration = 90
