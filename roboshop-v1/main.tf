@@ -49,7 +49,7 @@ module "payment" {
   name = "payment"
 }
 
-#module "dispatch" {
-#  source = "./ec2"
-#  name = "dispatch"
-#}
+module "dispatch" {
+  source = "./ec2"
+  name = "dispatch"
+}
