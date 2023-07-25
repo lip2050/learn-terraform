@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   instance_type = lookup(each.value, "instance_type", "t3.small" )
 
   tags = {
-    Name = "hello"
+    Name = each.key
   }
 }
 
